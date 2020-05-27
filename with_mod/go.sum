@@ -1,1 +1,4 @@
 github.com/MrHappyCPP/gogogo v0.0.0-20200519140008-7fb3ab83723d h1:WBZY6J4K7lSh8NvdhK60YN9c1sjCUEMFwMGUBGMX7fg=
+github.com/google/go-cmp v0.4.1 h1:/exdXoGamhu5ONeUJH0deniYLWYvQwW66yvlfiiKTu0=
+github.com/google/go-cmp v0.4.1/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=

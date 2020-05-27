@@ -1,0 +1,2896 @@
+{
+  "services": [
+    {
+      "name": "ecom-backoffice-csa",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-backoffice-csa",
+      "squad": "eCom-Fulfillment",
+      "team": "Deep Thought",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "geocoding",
+      "link": "http://slash.service.prod.rewe-digital.com/services/geocoding",
+      "squad": "None",
+      "team": "Geo Guild",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "salesforce-monitoring-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/salesforce-monitoring-service",
+      "squad": "eCom-Fulfillment",
+      "team": "FourtyTwo",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "cash-cow",
+      "link": "http://slash.service.prod.rewe-digital.com/services/cash-cow",
+      "squad": "eCom-Fulfillment",
+      "team": "Phoenix",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "offer-consumer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/offer-consumer",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-backoffice-auth",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-backoffice-auth",
+      "squad": "eCom-Fulfillment",
+      "team": "Deep Thought",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "home-page",
+      "link": "http://slash.service.prod.rewe-digital.com/services/home-page",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "slash",
+      "link": "http://slash.service.prod.rewe-digital.com/services/slash",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "lsfk-registration-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/lsfk-registration-service",
+      "squad": "customer check-in",
+      "team": "ghostbusters",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ingredients-mapper-renderer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ingredients-mapper-renderer",
+      "squad": "discovery",
+      "team": "Party Parrots",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-duc-t-configuration",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-duc-t-configuration",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "productlist-renderer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/productlist-renderer",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 6,
+        "container_count": 6,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ui-components-provider",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ui-components-provider",
+      "squad": "n/a",
+      "team": "Frontend Guild",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "salesforce-account-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/salesforce-account-service",
+      "squad": "eCom-Fulfillment",
+      "team": "FourtyTwo",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "calculon",
+      "link": "http://slash.service.prod.rewe-digital.com/services/calculon",
+      "squad": "discovery",
+      "team": "Party Parrots",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-duc-testgroups",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-duc-testgroups",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "offers-renderer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/offers-renderer",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "public-holiday-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/public-holiday-service",
+      "squad": "checkout",
+      "team": "fraggles",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "dummy-log-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/dummy-log-service",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 13,
+        "container_count": 10,
+        "state": "unhealthy",
+        "infos": [
+          "Healthy instance count inconsistent: 13 should be healthy but found 10"
+        ]
+      },
+      "state": 1,
+      "orchestrator": "nomad",
+      "job_type": "system"
+    },
+    {
+      "name": "rewe-checkout",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-checkout",
+      "squad": "checkout",
+      "team": "Honeybadgers",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 5,
+        "container_count": 5,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "the-header-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/the-header-service",
+      "squad": "customer check-in",
+      "team": "ghostbusters",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "recipe-search",
+      "link": "http://slash.service.prod.rewe-digital.com/services/recipe-search",
+      "squad": "discovery",
+      "team": "Party Parrots",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "cash-alert-notifier",
+      "link": "http://slash.service.prod.rewe-digital.com/services/cash-alert-notifier",
+      "squad": "eCom-Fulfillment",
+      "team": "Phoenix",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-order-frontend",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-order-frontend",
+      "squad": "fullfillment",
+      "team": "values",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "kibana-find",
+      "link": "http://slash.service.prod.rewe-digital.com/services/kibana-find",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-systems-gateway",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-systems-gateway",
+      "squad": "core-services",
+      "team": "Anderson",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-duc",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-duc",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 30,
+        "container_count": 30,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "timeslot-management-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/timeslot-management-service",
+      "squad": "checkout",
+      "team": "fraggles",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "market-chooser",
+      "link": "http://slash.service.prod.rewe-digital.com/services/market-chooser",
+      "squad": "customer check-in",
+      "team": "ghostbusters",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 5,
+        "container_count": 5,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-feedback-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-feedback-service",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "footer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/footer",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "salesforce-order-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/salesforce-order-service",
+      "squad": "eCom-Fulfillment",
+      "team": "FourtyTwo",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "payback-frontend",
+      "link": "http://slash.service.prod.rewe-digital.com/services/payback-frontend",
+      "squad": "Customer Check-In",
+      "team": "Angry Beavers",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "service-fee-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/service-fee-service",
+      "squad": "checkout",
+      "team": "fraggles",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-voice-gateway",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-voice-gateway",
+      "squad": "Voice",
+      "team": "Jarvis",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "cash-tap",
+      "link": "http://slash.service.prod.rewe-digital.com/services/cash-tap",
+      "squad": "eCom-Fulfillment",
+      "team": "Phoenix",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "reco-ui",
+      "link": "http://slash.service.prod.rewe-digital.com/services/reco-ui",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "substitutes-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/substitutes-service",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-duc-frontend-events",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-duc-frontend-events",
+      "squad": "Platform",
+      "team": "Quokka",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "checkout-frontend",
+      "link": "http://slash.service.prod.rewe-digital.com/services/checkout-frontend",
+      "squad": "checkout",
+      "team": "Honeybadgers",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-couponing",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-couponing",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-duc-seo",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-duc-seo",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "postgres-bloat-monitoring",
+      "link": "http://slash.service.prod.rewe-digital.com/services/postgres-bloat-monitoring",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 0,
+        "container_count": 0,
+        "state": "healthy",
+        "infos": [
+          "Periodic schedule: 0 * * * *"
+        ]
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "batch"
+    },
+    {
+      "name": "timeslot-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/timeslot-service",
+      "squad": "checkout",
+      "team": "fraggles",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "timeslot-denial-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/timeslot-denial-service",
+      "squad": "checkout",
+      "team": "fraggles",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-product-details",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-product-details",
+      "squad": "discovery",
+      "team": "Party Parrots",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "salesforce-market-data-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/salesforce-market-data-service",
+      "squad": "eCom-Fulfillment",
+      "team": "FourtyTwo",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "search-admin",
+      "link": "http://slash.service.prod.rewe-digital.com/services/search-admin",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "postgres-stats-monitoring",
+      "link": "http://slash.service.prod.rewe-digital.com/services/postgres-stats-monitoring",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 0,
+        "container_count": 0,
+        "state": "healthy",
+        "infos": [
+          "Periodic schedule: */5 * * * *"
+        ]
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "batch"
+    },
+    {
+      "name": "rewe-myproducts",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-myproducts",
+      "squad": "discovery",
+      "team": "lightningracoons",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "lsfk-logo-generator",
+      "link": "http://slash.service.prod.rewe-digital.com/services/lsfk-logo-generator",
+      "squad": "fulfillment",
+      "team": "Laser Dolphins",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "customer-deletion-request-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/customer-deletion-request-service",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "content-market-agb",
+      "link": "http://slash.service.prod.rewe-digital.com/services/content-market-agb",
+      "squad": "Content",
+      "team": "Team Killer Rabbits",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "payback-account-sync",
+      "link": "http://slash.service.prod.rewe-digital.com/services/payback-account-sync",
+      "squad": "Customer Check-In",
+      "team": "Angry Beavers",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-backoffice-navigation",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-backoffice-navigation",
+      "squad": "eCom-Fulfillment",
+      "team": "Deep Thought",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-prometheus-pushgateway",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-prometheus-pushgateway",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "invoice-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/invoice-service",
+      "squad": "eCom-Fulfillment",
+      "team": "Phoenix",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "lsfk-customer-management",
+      "link": "http://slash.service.prod.rewe-digital.com/services/lsfk-customer-management",
+      "squad": "customer check-in",
+      "team": "ghostbusters",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "slash-exporter",
+      "link": "http://slash.service.prod.rewe-digital.com/services/slash-exporter",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "more-like-this-associator",
+      "link": "http://slash.service.prod.rewe-digital.com/services/more-like-this-associator",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "guardian-of-the-tax",
+      "link": "http://slash.service.prod.rewe-digital.com/services/guardian-of-the-tax",
+      "squad": "eCom-Fulfillment",
+      "team": "Phoenix",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-markets-api",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-markets-api",
+      "squad": "customer check-in",
+      "team": "ghostbusters",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 6,
+        "container_count": 6,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "loyalty-point-notifications",
+      "link": "http://slash.service.prod.rewe-digital.com/services/loyalty-point-notifications",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-anschel-ezpz",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-anschel-ezpz",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "content-themes",
+      "link": "http://slash.service.prod.rewe-digital.com/services/content-themes",
+      "squad": "Content",
+      "team": "Team Killer Rabbits",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-ducr",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-ducr",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-ecommerce-gateway",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-ecommerce-gateway",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "product-details-renderer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/product-details-renderer",
+      "squad": "discovery",
+      "team": "Party Parrots",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-solvency-information",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-solvency-information",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "acme-ip-info",
+      "link": "http://slash.service.prod.rewe-digital.com/services/acme-ip-info",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "product-availability",
+      "link": "http://slash.service.prod.rewe-digital.com/services/product-availability",
+      "squad": "",
+      "team": "",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 0,
+        "container_count": 0,
+        "state": "critical",
+        "infos": [
+          "Job not found"
+        ]
+      },
+      "state": 0,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-ebon",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-ebon",
+      "squad": "Customer Check-In",
+      "team": "Angry Beavers",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "partner-payout-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/partner-payout-service",
+      "squad": "eCom-Fulfillment",
+      "team": "Phoenix",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "search-query-fortifier",
+      "link": "http://slash.service.prod.rewe-digital.com/services/search-query-fortifier",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "more-like-this-consumer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/more-like-this-consumer",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "salesforce-customer-segment-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/salesforce-customer-segment-service",
+      "squad": "eCom-Fulfillment",
+      "team": "FourtyTwo",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "listing-consolidator",
+      "link": "http://slash.service.prod.rewe-digital.com/services/listing-consolidator",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "product-details-kafka-consumer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/product-details-kafka-consumer",
+      "squad": "discovery",
+      "team": "Party Parrots",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-markets-importer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-markets-importer",
+      "squad": "customer check-in",
+      "team": "ghostbusters",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "search-suggestion",
+      "link": "http://slash.service.prod.rewe-digital.com/services/search-suggestion",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 5,
+        "container_count": 5,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "content-handbill-pictures",
+      "link": "http://slash.service.prod.rewe-digital.com/services/content-handbill-pictures",
+      "squad": "Content",
+      "team": "Team Killer Rabbits",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-product-recall",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-product-recall",
+      "squad": "eCom-Fulfillment",
+      "team": "Deep Thought",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "more-like-this",
+      "link": "http://slash.service.prod.rewe-digital.com/services/more-like-this",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "loyalty-points",
+      "link": "http://slash.service.prod.rewe-digital.com/services/loyalty-points",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "cms-censhare-adapter-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/cms-censhare-adapter-service",
+      "squad": "Content",
+      "team": "Team Killer Rabbits",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "gcp-refill-kafka-mirror",
+      "link": "http://slash.service.prod.rewe-digital.com/services/gcp-refill-kafka-mirror",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "cms-offer-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/cms-offer-service",
+      "squad": "Content",
+      "team": "Team Killer Rabbits",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-merkzettel-api",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-merkzettel-api",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-duc-base",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-duc-base",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-duc-adobe-streaming",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-duc-adobe-streaming",
+      "squad": "platform",
+      "team": "Quokka",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-backoffice-ducr",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-backoffice-ducr",
+      "squad": "core-services",
+      "team": "Anderson",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "login-frontend",
+      "link": "http://slash.service.prod.rewe-digital.com/services/login-frontend",
+      "squad": "Customer Check-In",
+      "team": "Thunderbirds",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-backoffice-login",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-backoffice-login",
+      "squad": "eCom-Fulfillment",
+      "team": "Deep Thought",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "address",
+      "link": "http://slash.service.prod.rewe-digital.com/services/address",
+      "squad": "checkout",
+      "team": "Honeybadgers",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ean-resolver",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ean-resolver",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "content-offer-search",
+      "link": "http://slash.service.prod.rewe-digital.com/services/content-offer-search",
+      "squad": "Content",
+      "team": "Team Kung Fu Pandas",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-customer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-customer",
+      "squad": "Customer Check-In",
+      "team": "Thunderbirds",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "min-price",
+      "link": "http://slash.service.prod.rewe-digital.com/services/min-price",
+      "squad": "discovery",
+      "team": "Party Parrots",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-backoffice-duc",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-backoffice-duc",
+      "squad": "core-services",
+      "team": "Anderson",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-app-gateway",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-app-gateway",
+      "squad": "mobile",
+      "team": "Android & iOS",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 6,
+        "container_count": 6,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-checkout-kafka",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-checkout-kafka",
+      "squad": "checkout",
+      "team": "Honeybadgers",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "customer-registration-ui",
+      "link": "http://slash.service.prod.rewe-digital.com/services/customer-registration-ui",
+      "squad": "Customer Check-In",
+      "team": "Thunderbirds",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "gcp-refill-to-ecom-kafka-mirror",
+      "link": "http://slash.service.prod.rewe-digital.com/services/gcp-refill-to-ecom-kafka-mirror",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-payment-administration-page",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-payment-administration-page",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ersatzartikel",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ersatzartikel",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "page-search",
+      "link": "http://slash.service.prod.rewe-digital.com/services/page-search",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-backoffice-search",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-backoffice-search",
+      "squad": "eCom-Fulfillment",
+      "team": "Deep Thought",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-offer-api",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-offer-api",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-basket-cat",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-basket-cat",
+      "squad": "checkout",
+      "team": "dieschroedingers",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "helloworld",
+      "link": "http://slash.service.prod.rewe-digital.com/services/helloworld",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "search",
+      "link": "http://slash.service.prod.rewe-digital.com/services/search",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-consent-statement",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-consent-statement",
+      "squad": "Customer Check-In",
+      "team": "Thunderbirds",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "solr-search",
+      "link": "http://slash.service.prod.rewe-digital.com/services/solr-search",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 5,
+        "container_count": 5,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-basket",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-basket",
+      "squad": "checkout",
+      "team": "dieschroedingers",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 6,
+        "container_count": 6,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "listing-indexer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/listing-indexer",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "salesforce-tourdelay-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/salesforce-tourdelay-service",
+      "squad": "eCom-Fulfillment",
+      "team": "FourtyTwo",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ebon-frontend",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ebon-frontend",
+      "squad": "Customer Check-In",
+      "team": "Angry Beavers",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ingredients-mapper",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ingredients-mapper",
+      "squad": "discovery",
+      "team": "Party Parrots",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "beaver-dam",
+      "link": "http://slash.service.prod.rewe-digital.com/services/beaver-dam",
+      "squad": "Customer Check-In",
+      "team": "Angry Beavers",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "flat-eric",
+      "link": "http://slash.service.prod.rewe-digital.com/services/flat-eric",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-navigation-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-navigation-service",
+      "squad": "discovery",
+      "team": "lightningracoons",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-backoffice-order",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-backoffice-order",
+      "squad": "eCom-Fulfillment",
+      "team": "Deep Thought",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "my-offers-ui",
+      "link": "http://slash.service.prod.rewe-digital.com/services/my-offers-ui",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "delivery-zone-management",
+      "link": "http://slash.service.prod.rewe-digital.com/services/delivery-zone-management",
+      "squad": "checkout",
+      "team": "fraggles",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "commerce-server-sync-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/commerce-server-sync-service",
+      "squad": "Customer Check-In",
+      "team": "Thunderbirds",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 6,
+        "container_count": 6,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "invoice-ui-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/invoice-ui-service",
+      "squad": "eCom-Fulfillment",
+      "team": "Phoenix",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "payback",
+      "link": "http://slash.service.prod.rewe-digital.com/services/payback",
+      "squad": "Customer Check-In",
+      "team": "Angry Beavers",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "kafka-exporter",
+      "link": "http://slash.service.prod.rewe-digital.com/services/kafka-exporter",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "content-offer-details",
+      "link": "http://slash.service.prod.rewe-digital.com/services/content-offer-details",
+      "squad": "content",
+      "team": "Laser Dolphins",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "notification-renderer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/notification-renderer",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "content-personalization",
+      "link": "http://slash.service.prod.rewe-digital.com/services/content-personalization",
+      "squad": "Content",
+      "team": "Team Kung Fu Pandas",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "payment-limit",
+      "link": "http://slash.service.prod.rewe-digital.com/services/payment-limit",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-payment-options-page",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-payment-options-page",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "acme-iris",
+      "link": "http://slash.service.prod.rewe-digital.com/services/acme-iris",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "customer-access",
+      "link": "http://slash.service.prod.rewe-digital.com/services/customer-access",
+      "squad": "Customer Check-In",
+      "team": "Thunderbirds",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 8,
+        "container_count": 8,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-duc-fe-logger",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-duc-fe-logger",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-duc-drawer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-duc-drawer",
+      "squad": "Platform",
+      "team": "Anderson",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "push-gateway",
+      "link": "http://slash.service.prod.rewe-digital.com/services/push-gateway",
+      "squad": "platform",
+      "team": "smiths",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "loyalty-points-campaign",
+      "link": "http://slash.service.prod.rewe-digital.com/services/loyalty-points-campaign",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "solr-listing-indexer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/solr-listing-indexer",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "customer-data-takeout",
+      "link": "http://slash.service.prod.rewe-digital.com/services/customer-data-takeout",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "salesforce-connector",
+      "link": "http://slash.service.prod.rewe-digital.com/services/salesforce-connector",
+      "squad": "eCom-Fulfillment",
+      "team": "FourtyTwo",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "address-frontend",
+      "link": "http://slash.service.prod.rewe-digital.com/services/address-frontend",
+      "squad": "checkout",
+      "team": "Honeybadgers",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "payment-reservation-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/payment-reservation-service",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "customer-registration",
+      "link": "http://slash.service.prod.rewe-digital.com/services/customer-registration",
+      "squad": "Customer Check-In",
+      "team": "Thunderbirds",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 6,
+        "container_count": 6,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "kibana-recipes",
+      "link": "http://slash.service.prod.rewe-digital.com/services/kibana-recipes",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "home-page-consumer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/home-page-consumer",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "reco-consumer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/reco-consumer",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "online-marketing-feed-generator",
+      "link": "http://slash.service.prod.rewe-digital.com/services/online-marketing-feed-generator",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "salesforce-ticket-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/salesforce-ticket-service",
+      "squad": "eCom-Fulfillment",
+      "team": "FourtyTwo",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-product-recall-customer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-product-recall-customer",
+      "squad": "eCom-Fulfillment",
+      "team": "Deep Thought",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-duc-adobe",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-duc-adobe",
+      "squad": "platform",
+      "team": "Quokka",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 4,
+        "container_count": 4,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "content-payback",
+      "link": "http://slash.service.prod.rewe-digital.com/services/content-payback",
+      "squad": "",
+      "team": "",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 0,
+        "container_count": 0,
+        "state": "critical",
+        "infos": [
+          "Job not found"
+        ]
+      },
+      "state": 0,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-order-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-order-service",
+      "squad": "fulfillment",
+      "team": "values",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "lsfk-market-customization-ui",
+      "link": "http://slash.service.prod.rewe-digital.com/services/lsfk-market-customization-ui",
+      "squad": "customer check-in",
+      "team": "ghostbusters",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "my-offers",
+      "link": "http://slash.service.prod.rewe-digital.com/services/my-offers",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "market-information-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/market-information-service",
+      "squad": "checkout",
+      "team": "fraggles",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-backoffice-coupon",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-backoffice-coupon",
+      "squad": "eCom-Fulfillment",
+      "team": "Deep Thought",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "content-censhare-importer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/content-censhare-importer",
+      "squad": "Content",
+      "team": "Team Killer Rabbits",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "tokka",
+      "link": "http://slash.service.prod.rewe-digital.com/services/tokka",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "phoenix-cs-bridge",
+      "link": "http://slash.service.prod.rewe-digital.com/services/phoenix-cs-bridge",
+      "squad": "eCom-Fulfillment",
+      "team": "Phoenix",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "address-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/address-service",
+      "squad": "discovery",
+      "team": "Party Parrots",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "push-trigger",
+      "link": "http://slash.service.prod.rewe-digital.com/services/push-trigger",
+      "squad": "platform",
+      "team": "smiths",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 0,
+        "container_count": 0,
+        "state": "healthy",
+        "infos": [
+          "Periodic schedule: 0 9 * * 1"
+        ]
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "batch"
+    },
+    {
+      "name": "ingredients-mapper-button",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ingredients-mapper-button",
+      "squad": "",
+      "team": "",
+      "active_group": "",
+      "health_status": {
+        "instance_count": 0,
+        "container_count": 0,
+        "state": "",
+        "infos": null
+      },
+      "state": -1,
+      "orchestrator": "consul",
+      "job_type": "service"
+    },
+    {
+      "name": "cloudflare-logpull",
+      "link": "http://slash.service.prod.rewe-digital.com/services/cloudflare-logpull",
+      "squad": "platform",
+      "team": "ACME",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "online-marketing-feed-provider",
+      "link": "http://slash.service.prod.rewe-digital.com/services/online-marketing-feed-provider",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-authentication",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-authentication",
+      "squad": "Customer Check-In",
+      "team": "Thunderbirds",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "content-recipe",
+      "link": "http://slash.service.prod.rewe-digital.com/services/content-recipe",
+      "squad": "Content",
+      "team": "Team Kung Fu Pandas",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-payment-interaction-page",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-payment-interaction-page",
+      "squad": "checkout",
+      "team": "pennywise",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-after-sales",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-after-sales",
+      "squad": "checkout",
+      "team": "Honeybadgers",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "mydata-template",
+      "link": "http://slash.service.prod.rewe-digital.com/services/mydata-template",
+      "squad": "Customer Check-In",
+      "team": "Thunderbirds",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "push-connector",
+      "link": "http://slash.service.prod.rewe-digital.com/services/push-connector",
+      "squad": "platform",
+      "team": "smiths",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "suggestions-renderer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/suggestions-renderer",
+      "squad": "Product Discovery",
+      "team": "Find",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-mail",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-mail",
+      "squad": "core-services",
+      "team": "Anderson",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 3,
+        "container_count": 3,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "market-master-data-service",
+      "link": "http://slash.service.prod.rewe-digital.com/services/market-master-data-service",
+      "squad": "customer check-in",
+      "team": "ghostbusters",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "order-modification-reminder",
+      "link": "http://slash.service.prod.rewe-digital.com/services/order-modification-reminder",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "duc-frontend-event-exporter",
+      "link": "http://slash.service.prod.rewe-digital.com/services/duc-frontend-event-exporter",
+      "squad": "core-services",
+      "team": "Anderson",
+      "active_group": "green",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "ecom-backoffice-customer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/ecom-backoffice-customer",
+      "squad": "eCom-Fulfillment",
+      "team": "Deep Thought",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 2,
+        "container_count": 2,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "my-offers-consumer",
+      "link": "http://slash.service.prod.rewe-digital.com/services/my-offers-consumer",
+      "squad": "discovery",
+      "team": "lambda",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    },
+    {
+      "name": "rewe-order-service-leader",
+      "link": "http://slash.service.prod.rewe-digital.com/services/rewe-order-service-leader",
+      "squad": "fulfillment",
+      "team": "values",
+      "active_group": "blue",
+      "health_status": {
+        "instance_count": 1,
+        "container_count": 1,
+        "state": "healthy",
+        "infos": []
+      },
+      "state": 2,
+      "orchestrator": "nomad",
+      "job_type": "service"
+    }
+  ]
+}
